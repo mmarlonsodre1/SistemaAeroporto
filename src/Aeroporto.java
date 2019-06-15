@@ -48,7 +48,7 @@ public class Aeroporto {
 
     public boolean possuiRota(Aeroporto aeroporto){
         Boolean x = false;
-        if (destAroportos.contains(aeroporto) || destAroportos.contains(aeroporto)){
+        if (destAroportos.contains(aeroporto) || partAroportos.contains(aeroporto)){
             x = true;
         }
         return x;
